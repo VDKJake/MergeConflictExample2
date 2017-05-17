@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -70,7 +71,8 @@ public class FortifyCooldownUI : MonoBehaviour {
                 centerImage.gameObject.SetActive(true);
             }
         }
-        
+
+        print("adding some code here");
         // If the duration is over then tell the script it is over.
         if (modTimer.isComplete())
         {
